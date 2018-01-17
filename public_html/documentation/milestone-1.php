@@ -11,11 +11,12 @@
     <h2>Audience</h2>
     <p>My main audience is potential employers and other developers.</p>
     <h2>Goal</h2>
-    <p>This is should be a quantifiable goal if possible. For example, a goal for your PWP could be:
-        To acquire full or part-time employment or an internship.
-        To increase sales and/or conversion rates for an existing business.
-        To attract freelance clients.
-        To serve as a gallery to showcase and promote your work.
-        To increase the reach of a new or established social media presence (as measured via analytics tools).</p>
+    <p>My first goal is to acquire full-time employment by using my personal website as a gallery to showcase and promote my skills.</p>
+    <p>My secondary goal is to increase the reach of a new or established social media presence.</p>
+    <h2>Persona</h2>
+    <p>Name</p>
+    <p>detailed description that includes age, job or role, relevant technology being used, behaviors and attitudes, and the situatin or scenario in which they will use my site.</p>
+    <p>their goals regarding the use of my site.</p>
+    <p>additional info: frustrations the persona may be facing. additional info the persona may need in order to acheive their goal. </p>
 </body>
 </html>
