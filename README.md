@@ -1,3 +1,5 @@
+
+
 # mary-macmillan
 
 
@@ -18,3 +20,7 @@ Overall you did a good job. Keep up the good work!
 
 ### Grade
 Tier III https://bootcamp-coders.cnm.edu/projects/personal/rubric/
+
+## Update - Short Project Description
+
+This website will help me get a job in Santa Fe as a developer. It will serve as a gallery to showcase my projects and skills for potential employers.
