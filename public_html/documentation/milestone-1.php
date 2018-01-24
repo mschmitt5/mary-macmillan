@@ -12,7 +12,7 @@
     <p>My main audience is potential employers and other developers; my site will be designed for professionals in the web development community.</p>
     <h2>Goal</h2>
     <p>My first goal is to acquire full-time employment by using my personal website as a gallery to showcase and promote my skills.</p>
-    <p>My secondary goal is to increase the reach of a new or established social media presence.</p>
+    <p>My secondary goal is to increase the reach of my social media presence.</p>
     <h2>Persona</h2>
     <p>Dominic Caldwell</p>
     <p>Dominic is a 38-year-old man living in Santa Fe who started his own web development company - New Waves - in 2015 and is looking to hire new full-time developers. He is very experienced with technology and while browsing often uses an iPhone7. If he finds a site of particular interest he will open the link on his MacBookPro. He expects job applicants to have their own website showing their experience in back and front end development. He has a busy life due to his fairly new start up and will not spend more than 5 minutes looking at a potential employee's site. If he cannot find what he needs (resume, contact information, and portfolio) within that time he moves on.</p>
