@@ -12,5 +12,7 @@
     <p>Second, I will have a more in depth "about me" section. This will have more specifics about what I'm interested in, what languages I'm comfortable with, and probably a bit about deep dive.</p>
     <p>Third, I will have a gallery/portfolio section. Ideally I'd like it to include different projects I've worked on, but I'm worried that I won't have any real examples by that time.</p>
     <p>I'll also have a "contact me" section. There will be fields for the person to fill in their information and email as well as a message.</p>
+    <h2>Wireframes</h2>
+    <img src="images/wireframe.png" alt="wireframes">
 </body>
 </html>
