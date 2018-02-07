@@ -24,3 +24,16 @@ Tier III https://bootcamp-coders.cnm.edu/projects/personal/rubric/
 ## Update - Short Project Description
 
 This website will help me get a job in Santa Fe as a developer. It will serve as a gallery to showcase my projects and skills for potential employers.
+
+## Milestone 2&alpha; Feedback
+These are looking good. Your layout plans are simple and concise, and your content strategy is reasonably well defined.  I don't see any big differences here vs. when I looked at your project earlier - so refer back to my previous feedback via Slack too. 
+
+Your layout should be fairly simple to build using the Bootstrap Grid - I don't see any potential problems here and your page should be relatively simple to build. With simple/minimalistic page designs visual consistency and balance is key. Sophisticated use of negative space is definitely a skill, and I think you can employ it well here. These considerations can mean the difference between mediocre and  professional-level presentation, so keep these points in mind. I'm looking forward to seeing your design choices take shape. 
+
+Your directory structure and code all look great. I think you're ready to begin development.
+
+Build your PWP in a file named `index.php` inside `/public_html`. CSS, images, and JS directories should also be inside `public_html` and siblings to `/documentation`. We won't be using the `/documentation` directory any longer.
+
+If you feel ahead of the curve during your development phase in the coming weeks, have a look at the [PWP Contact Form Doc](https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/) for an overview of the Swiftmailer integration.
+
+Nice work. Your Milestone 1 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development!
