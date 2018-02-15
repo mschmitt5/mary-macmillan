@@ -1,11 +1,6 @@
 .header {
 }
 
-.watercolor {
-    background-image: url("documentation/images/background.JPG");
-
-}
-
 .text {
     font-family: "PT Sans", sans-serif;
 }
@@ -52,4 +47,20 @@ a {
         display: block;
 
     }
+}
+
+
+body, html {
+    height: 100%;
+}
+.watercolor {
+    /* The image used */
+    background-image: url("documentation/images/background.JPG");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
 }
