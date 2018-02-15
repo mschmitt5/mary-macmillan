@@ -1,17 +1,36 @@
+
+
+/*this is the business card area*/
+
 .header {
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 4em;
 }
 
 .text {
     font-family: "PT Sans", sans-serif;
 }
 
-a {
-    color: black;
+.watercolor {
+    /* The image used */
+    background-image: url("documentation/images/skara-brae.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.name {
-    font-weight: bolder;
-    font-size: 4em;
+
+/*makes links black before hovering over them*/
+a {
+    color: black;
 }
 
 @media only screen and (max-width: 575px){
@@ -42,6 +61,9 @@ a {
     }
 }
 
+
+/*stuff in the body*/
+
 @media only screen and (max-width: 575px){
     .happyday {
         display: block;
@@ -50,17 +72,10 @@ a {
 }
 
 
-body, html {
-    height: 100%;
-}
-.watercolor {
-    /* The image used */
-    background-image: url("documentation/images/background.JPG");
+/*@media only screen and (max-width: 575px){*/
+/*.watercolor {*/
+/*background-size: contain;*/
 
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/*}*/
+/*}
+*/
