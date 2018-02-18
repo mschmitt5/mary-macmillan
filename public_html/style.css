@@ -25,12 +25,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 /*makes links black before hovering over them*/
 a {
     color: black;
+}
+
+.happyday {
+    text-align: center;
 }
 
 @media only screen and (max-width: 575px){
@@ -66,9 +73,11 @@ a {
 
 @media only screen and (max-width: 575px){
     .happyday {
-        display: block;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
 
-    }
+}
 }
 
 
