@@ -14,7 +14,7 @@
     font-family: "PT Sans", sans-serif;
 }
 
-.background, .form {
+.background {
     background-image: url("documentation/images/largerBackground2.jpg");
     background-repeat: no-repeat;
     background-position: center;
