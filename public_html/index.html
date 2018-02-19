@@ -19,9 +19,9 @@
 </head>
 <body>
     <div>
-
-        <div class="container pb-3 text-center text">
-            <div class="jumbotron watercolor bg-white">
+        <div class="background">
+        <div class="container p-3 text-center text">
+            <div class="jumbotron watercolor">
                 <h1 class="display-4 name"><strong>Mary MacMillan</strong></h1>
                 <h4 class="title">Full Stack Web Developer</h4>
                 <h6 class="resume"><a href="mary-macmillan-resume.pdf">Resume</a>  <a href="https://www.linkedin.com/in/mary-macmillan/">LinkedIn</a>  <a
@@ -36,11 +36,13 @@
                     <div class="col">
                         <p>I am a full stack web developer. I focus mainly on enhancing the functionality and design of existing websites but I also enjoy creating websites from scratch.</p>
                     </div>
+                    </div>
                     <div class="col-0 col-md-2"></div>
                 </div>
-            </div>
+
         <br>
         <br>
+        </div>
         <br>
         <div class="container">
             <div class="row">
@@ -50,14 +52,45 @@
                     <p>ABQ Street Art is a capstone project that I worked on from beginning to end with a group of three other developers.</p>
                     <p>It is an interactive web application that allows users to search and locate murals, sculptures, and other public art in Downtown Albuquerque.
                     </p>
-                    <p>ABQ Street Art’s database was developed with MySQL, the front end UX and UI were created using a combination of HTML5, CSS3, Bootstrap, JavaScript, and jQuery. The backend was built using PHP7.1. Functionality was added to the project with the AngularJS framework. Geolocation capabilities were integrated using the Google Maps API.
+                    <p>ABQ Street Art’s database was developed with MySQL, the front end UX and UI were created using a combination of HTML5, CSS3, Bootstrap, JavaScript, and jQuery. The backend was built using PHP7.1. Functionality was added to the project with the AngularJS framework and geolocation capabilities were integrated using the Google Maps API.
                     </p>
                 </div>
                     <div class="col-12 col-md-8 col-lg-3 p-1 m-4 happyday">
                     <img class="img-fluid" src="documentation/images/happy-day.JPG" alt="placeholder">
                     </div>
-
             </div>
+        </div>
+        <div class="form p-5">
+            <h1 class="text-center">Contact Mary</h1>
+            <form class="fill" method="post" onsubmit=contactMe(event)>
+                <div class="info">
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" />
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" />
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone">
+                    </p>
+                </div>
+                <div class="message">
+                    <p>
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject">
+                    </p>
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
+                    </p>
+                </div>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
         </div>
 </div>
 </body>
