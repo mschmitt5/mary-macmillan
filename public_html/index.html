@@ -62,35 +62,43 @@
         </div>
         <div class="form p-5">
             <h1 class="text-center">Contact Mary</h1>
+            <div class="container">
+                <div class="row">
             <form class="fill" method="post" onsubmit=contactMe(event)>
-                <div class="info">
-                    <p>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" />
-                    </p>
-                    <p>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" />
-                    </p>
-                    <p>
-                        <label for="phone">Phone</label>
-                        <input type="tel" name="phone">
-                    </p>
+                <div class="col-12 col-md-3">
+                    <div class=" card info">
+                        <p>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" />
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" />
+                        </p>
+                        <p>
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone">
+                        </p>
+                    </div>
                 </div>
-                <div class="message">
+                <div class=" col-12 col-md-8">
+                    <div class=" card message">
+                        <p>
+                            <label for="subject">Subject</label>
+                            <input type="text" name="subject">
+                        </p>
+                        <p>
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
+                        </p>
                     <p>
-                        <label for="subject">Subject</label>
-                        <input type="text" name="subject">
+                        <button type="submit">Send</button>
                     </p>
-                    <p>
-                        <label for="message">Message</label>
-                        <textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
-                    </p>
+                    </div>
                 </div>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
             </form>
+                </div>
+            </div>
         </div>
 </div>
 </body>

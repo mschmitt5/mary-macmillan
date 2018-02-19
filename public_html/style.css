@@ -34,17 +34,17 @@ body {
     /*align-items: ;*/
 /*}*/
 
-.info {
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-}
+/*.info {*/
+    /*display: flex;*/
+    /*align-items: left;*/
+    /*flex-direction: column;*/
+/*}*/
 
-.message {
-    display: flex;
-    align-items: right;
-    flex-direction: column;
-}
+/*.message {*/
+    /*display: flex;*/
+    /*align-items: right;*/
+    /*flex-direction: column;*/
+/*}*/
 
 /*.watercolor {*/
     /*!* The image used *!*/
