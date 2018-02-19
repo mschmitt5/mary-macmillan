@@ -3,7 +3,6 @@
     background-image: url("documentation/images/largerBackground2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    /*opacity: .5;*/
 }
 
 .jumbotron {
@@ -19,8 +18,7 @@
     font-weight: bolder;
     font-size: 4em;
 }
-
-.text {
+ body {
     font-family: "PT Sans", sans-serif;
 }
 
@@ -33,6 +31,10 @@ a:hover {
     color: #311e6f;
 }
 
+/*this is the about me background*/
+.aboutMe {
+    background-color: rgba(51, 110, 140, .5);
+}
 
 
 
