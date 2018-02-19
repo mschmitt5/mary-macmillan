@@ -66,43 +66,45 @@
                     </div>
             </div>
         </div>
-        <div class="jumbotron p-5 background">
-            <h1 class="text-center">Contact Mary</h1>
+        <div class="p-5 background">
             <div class="container">
-                <div class="row">
-                    <form class="fill" method="post" onsubmit=contactMe(event)>
-                        <div class="col-12 col-md-3">
-                            <div class="info">
-                                <p>
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" />
-                                </p>
-                                <p>
-                                    <label for="email">Email</label>
-                                    <input type="email" name="email" />
-                                </p>
-                                <p>
-                                    <label for="phone">Phone</label>
-                                    <input type="tel" name="phone">
-                                </p>
+                <div class="jumbotron">
+                <h1 class="text-center">Contact Mary</h1>
+                        <form class="fill" method="post" onsubmit=contactMe(event)>
+                            <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="info">
+                                    <p>
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" />
+                                    </p>
+                                    <p>
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" />
+                                    </p>
+                                    <p>
+                                        <label for="phone">Phone</label>
+                                        <input type="tel" name="phone">
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class=" col-12 col-md-8">
-                            <div class="message">
+                            <div class=" col-12 col-md-8">
+                                <div class="message">
+                                    <p>
+                                        <label for="subject">Subject</label>
+                                        <input type="text" name="subject">
+                                    </p>
+                                    <p>
+                                        <label for="message">Message</label>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
+                                    </p>
                                 <p>
-                                    <label for="subject">Subject</label>
-                                    <input type="text" name="subject">
+                                    <button type="submit">Send</button>
                                 </p>
-                                <p>
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
-                                </p>
-                            <p>
-                                <button type="submit">Send</button>
-                            </p>
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

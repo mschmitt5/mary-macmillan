@@ -1,4 +1,14 @@
+/*this info is the same in the header and around the contact form*/
+.background {
+    background-image: url("documentation/images/largerBackground2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*opacity: .5;*/
+}
 
+.jumbotron {
+    background-color: rgba(171, 170, 171, .50);
+}
 
 /*this is the business card area*/
 
@@ -14,24 +24,20 @@
     font-family: "PT Sans", sans-serif;
 }
 
-.background {
-    background-image: url("documentation/images/largerBackground2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    /*opacity: .5;*/
-}
-
-body {
-    background-color: rgba(171, 170, 171, .50);
-}
-
-.jumbotron {
-    background-color: rgba(171, 170, 171, .50);
-}
-
 /*makes links black before hovering over them*/
 a {
     color: black;
+}
+
+a:hover {
+    color: #311e6f;
+}
+
+
+
+
+body {
+    background-color: rgba(171, 170, 171, .50);
 }
 
 .happyday {
@@ -39,7 +45,7 @@ a {
 }
 
 
-
+/*media queries*/
 @media only screen and (max-width: 575px){
     .name {
         font-size: 3em;
@@ -68,23 +74,12 @@ a {
     }
 }
 
-
-/*stuff in the body*/
-
 @media only screen and (max-width: 575px){
     .happyday {
     display: block;
         margin-left: auto;
         margin-right: auto;
-
 }
 }
 
 
-/*@media only screen and (max-width: 575px){*/
-/*.watercolor {*/
-/*background-size: contain;*/
-
-/*}*/
-/*}
-*/
