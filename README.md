@@ -37,3 +37,16 @@ Build your PWP in a file named `index.php` inside `/public_html`. CSS, images, a
 If you feel ahead of the curve during your development phase in the coming weeks, have a look at the [PWP Contact Form Doc](https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/) for an overview of the Swiftmailer integration.
 
 Nice work. Your Milestone 1 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development!
+
+
+##Milestone 2b Feedback
+
+Looks great!
+
+In the full version everything lines up nicely. Check to make sure that everything lines up the way that you want in the mobile version.
+
+Things to Consider
+Consider making the resume, linkedin and github links more visible.
+Any interest in adding a header or footer?
+
+Keep up the good work. Your Milestone 2b grade is Tier IV.
