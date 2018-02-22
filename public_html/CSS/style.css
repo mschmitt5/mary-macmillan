@@ -44,9 +44,18 @@ body {
 }
 
 .happyday {
-    text-align: center;
+    align: center;
 }
 
+/*make recaptcha mobile responsive*/
+@media screen and (max-width: 575px){
+    .g-recaptcha {
+        transform:scale(0.75);
+        -webkit-transform:scale(0.75);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+}
 
 /*media queries*/
 @media only screen and (max-width: 575px){
