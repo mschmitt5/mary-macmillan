@@ -23,6 +23,10 @@
     font-family: "PT Sans", sans-serif;
 }
 
+ .resume, .linkedin, .github {
+     text-decoration: underline;
+ }
+
 /*makes links black before hovering over them*/
 a {
     color: black;
@@ -80,7 +84,7 @@ body {
 }
 
 @media only screen and (max-width: 355px){
-    .resume {
+    .links {
         font-size: .75em;
 
     }
@@ -93,5 +97,12 @@ body {
         margin-right: auto;
 }
 }
+
+/*@media only screen and (max-width: 575px){*/
+    /*h2.streetart {*/
+        /*align-content: center;*/
+
+    /*}*/
+/*}*/
 
 
