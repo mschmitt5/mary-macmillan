@@ -74,41 +74,34 @@
             <div class="container">
                 <div class="jumbotron">
                 <h1 class="text-center">Contact Mary</h1>
-                        <form class="fill" method="post" onsubmit=contactMe(event)>
-                            <div class="row">
+                    <form id="form" action="php/mailer.php" method="post">
+                        <div class="row">
                             <div class="col-12 col-md-3">
                                 <div class="info">
                                     <p>
-                                        <label for="name"></label>
-                                        <input type="text" name="name" placeholder="Name"/>
+                                        <input id="name" type="text" name="name" placeholder=" Name"/>
                                     </p>
                                     <p>
-                                        <label for="email"></label>
-                                        <input type="email" name="email" placeholder="Email"/>
-                                    </p>
-                                    <p>
-                                        <label for="phone"></label>
-                                        <input type="tel" name="phone" placeholder="Phone">
+                                        <input id="email" type="email" name="email" placeholder=" Email"/>
                                     </p>
                                 </div>
                             </div>
                             <div class=" col-12 col-md-8">
                                 <div class="message">
                                     <p>
-                                        <label for="subject"></label>
-                                        <input type="text" name="subject" placeholder="Subject">
+                                        <input id="subject" type="text" name="subject" placeholder=" Subject">
                                     </p>
                                     <p>
-                                        <label for="message"></label>
-                                        <textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
+                                        <textarea id="message" class="form-control" name="message" placeholder="Type message here!" rows="10"></textarea>
                                     </p>
-                                <p>
-                                    <button class="btn btn-outline-info" type="submit">Send</button>
-                                </p>
+                                    <div class="g-recaptcha" data-sitekey="6Ldr_UcUAAAAAClaF8yp68mK1h6AbJHR9sv9fjat"></div>
+                                    <br>
+                                    <input class="btn btn-outline-info" type="submit" value="Send">
                                 </div>
                             </div>
-                            </div>
-                        </form>
+                        </div>
+                    </form>
+                    <div id="output-area"></div>
                     </div>
                 </div>
             </div>

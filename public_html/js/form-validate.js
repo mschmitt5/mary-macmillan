@@ -32,14 +32,6 @@ $(document).ready(function(){
                 email: true,
                 required: true
             },
-            phone: {
-                phone: true,
-                required: true
-            },
-            subject: {
-                subject: true,
-                required: true
-            },
             message: {
                 required: true,
                 maxlength: 2000
@@ -54,12 +46,6 @@ $(document).ready(function(){
             email: {
                 email: "Please enter a valid email address.",
                 required: "Please enter a valid email address."
-            },
-            phone: {
-                required: "Please enter a phone number."
-            },
-            subject: {
-                required: "Please enter the subject of your message."
             },
             message: {
                 required: "Please enter a message.",
