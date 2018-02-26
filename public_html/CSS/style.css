@@ -1,3 +1,15 @@
+
+/*universal info*/
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: rgba(171, 170, 171, .50);
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+
 /*this info is the same in the header and around the contact form*/
 .background {
     background-image: url("../documentation/images/largerBackground2.jpg");
@@ -11,7 +23,6 @@
 }
 
 /*this is the business card area*/
-
 .header {
 }
 
@@ -20,6 +31,16 @@
     font-size: 4em;
 }
 
+/*makes links purple before hovering over them*/
+a {
+    color: #336E8C;
+}
+
+a:hover {
+    color: white;
+}
+
+/*makes links in business card area underlined and black before hovering*/
 .links > a {
     text-decoration: underline;
     color: black;
@@ -29,55 +50,35 @@
     color: #3B2A92;
 }
 
- body {
-    font-family: "PT Sans", sans-serif;
-}
-
- h1 {
-     font-weight: bolder;
- }
-
-
-
-
-/*makes links black before hovering over them*/
-a {
-    color: rgb(74, 54, 199);
-}
-
-a:hover {
-    color: white;
-}
-
 /*this is the about me background*/
 .aboutMe {
     background-color: rgba(51, 110, 140, .6);
 }
 
 
-
-body {
-    background-color: rgba(171, 170, 171, .50);
-}
-
+/*contact me links in footer*/
 .left {
-    float: left;
+    text-align: left;
     /*color: #9C0D78;*/
 }
 
+/*outside links in footer*/
 .right {
-    float: right;
+    text-align: right;
 }
 
+.middle {
+    text-align: center;
+}
+
+/*sticky footer*/
 .sticky-footer {
     position: fixed;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #336E8C;
-    text-align: center;
+    /*color: #3B2A92;*/
     bottom: 0;
     width: 100%;
-    height: 60px;
-    line-height: 60px;
     background-color: black;
 }
 
@@ -125,14 +126,7 @@ body {
     display: block;
         margin-left: auto;
         margin-right: auto;
+    }
 }
-}
-
-/*@media only screen and (max-width: 575px){*/
-    /*h2.streetart {*/
-        /*align-content: center;*/
-
-    /*}*/
-/*}*/
 
 
