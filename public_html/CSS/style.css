@@ -2,7 +2,6 @@
 /*universal info*/
 body {
     font-family: "PT Sans", sans-serif;
-    background-color: rgba(171, 170, 171, .50);
 }
 
 h1 {
@@ -55,6 +54,29 @@ a:hover {
     background-color: rgba(51, 110, 140, .6);
 }
 
+/*this is the ABQ Street Art backgroung*/
+.gray {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.streetart {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(252, 216, 33);
+}
+
+.inline {
+    display: inline-block;
+}
+
+.img-fluid {
+    border: black;
+    border-style: solid;
+}
 
 /*contact me links in footer*/
 .left {
