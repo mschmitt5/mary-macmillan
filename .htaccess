@@ -1,9 +1,11 @@
+# this forces SSL connection
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://mary-macmillan.com/$1 [L]
+
+
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^mary-macmillan.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.mary-macmillan.com$
 RewriteCond %{REQUEST_URI} !public_html/
 RewriteRule (.*) /public_html/$1 [L]
 
-# this forces SSL connection
-RewriteCond %{HTTPS} !=on
-RewriteRule (.*) https://mary-macmillan.com/$1 [L]
