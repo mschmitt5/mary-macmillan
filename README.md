@@ -50,3 +50,20 @@ Consider making the resume, linkedin and github links more visible.
 Any interest in adding a header or footer?
 
 Keep up the good work. Your Milestone 2b grade is Tier IV.
+
+## Final PWP Feedback
+
+Awesome! 
+Your site looks great on mobile devices and on full size screens!
+The contact form works.
+There are no errors.
+Good Job!
+
+Your grade is Tier IV
+
+Your cumulative PWP score is 36/40.
+
+- Milestone 1: Tier III
+- Milestone 2a: Tier III
+- Milestone 2b: Tier IV
+- PWP Final: IV
