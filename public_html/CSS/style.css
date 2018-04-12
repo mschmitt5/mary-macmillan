@@ -30,13 +30,13 @@ h1 {
     font-size: 4em;
 }
 
-/*makes links purple before hovering over them*/
+/*makes links blue before hovering over them*/
 a {
-    color: rgb(51, 110, 140);
+    color: rgba(51, 100, 140, 1);
 }
 
 a:hover {
-    color: white;
+    color: rgba(32, 32, 32, .5);
 }
 
 /*makes links in business card area underlined and black before hovering*/
@@ -51,7 +51,7 @@ a:hover {
 
 /*this is the about me background*/
 .aboutMe {
-    background-color: rgba(51, 110, 140, .6);
+    background-color: rgba(51, 110, 140, .7);
 }
 
 
@@ -68,6 +68,11 @@ a:hover {
 .streetart {
     font-family: 'Oswald', sans-serif;
     color: rgb(252, 216, 33);
+}
+
+/*this is the portfolio background*/
+.portfolio {
+    background-color: rgba(49, 30, 111, .7);
 }
 
 .inline {
